@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Neuemechina;
+  src: url(./NeueMachina-Regular.otf);
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.page1 {
+  height: 100%;
+  background-color: yellowgreen;
+}
+.page2 {
+  height: 100%;
+  background-color: tomato;
+}
+.page3 {
+  height: 100%;
+  background-color: aquamarine;
+  /* display: flex;
+  align-items: center; */
+  width: 100%;
+}
+.page4 {
+  height: 100%;
+  background-color: chocolate;
+}
+.move {
+  background-color: lawngreen;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  padding: 2vw 0vw;
+  gap: 10px;
+}
+.marque {
+  transform: translateX(100%);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0px 10px;
+}
+.marque h1 {
+  font-family: Neuemechina;
+}
+.marque img {
+  width: 60px;
+}

@@ -1,0 +1,248 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+  font-family: NeueMachina;
+}
+
+@font-face {
+  font-family: NeueMachina;
+  src: url(./NeueMachina-Regular.otf);
+}
+
+html,
+body {
+  height: 100%;
+}
+header {
+  height: 100%;
+}
+nav {
+  height: 100px;
+  width: 95%;
+  margin-inline: auto;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+
+nav h3 {
+  font-size: 30px;
+}
+
+nav h3 i {
+  display: inline-block;
+  rotate: 45deg;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 17px;
+}
+ul li button {
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.hero {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  width: 95%;
+  margin-inline: auto;
+  height: 85%;
+  align-items: center;
+  gap: 20px;
+}
+.hero .hero-left,
+.hero-right {
+  width: 50%;
+}
+
+.hero-left h1 {
+  font-size: 70px;
+}
+.hero-left p {
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.5;
+  width: 90%;
+}
+.hero-left button {
+  background: #000;
+  color: white;
+  height: 55px;
+  width: 240px;
+  outline: none;
+  border: 0;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+main {
+  width: 95%;
+  margin-inline: auto;
+}
+main .partners {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .partners img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+.service {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.service h4 {
+  background-color: #bdfd6b;
+  font-size: 40px;
+  padding: 0px 10px;
+  width: max-content;
+}
+
+.service p {
+  width: 52%;
+  line-height: 25px;
+}
+.Cards {
+  margin: 100px 0px;
+  display: grid;
+  grid-template-columns: 0.8fr 0.8fr;
+  grid-auto-rows: 300px;
+  gap: 20px;
+}
+
+.Cards .card1 {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  border-bottom: 9px solid black;
+}
+
+.Cards .card1 .card-left {
+  width: 50%;
+  height: 100%;
+}
+.Cards .card1 .card-right {
+  width: 50%;
+  height: 100%;
+}
+.Cards .card1 .card-right img {
+  width: 80%;
+}
+
+.Cards .card1 .card-left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card1 .card-left .arrow {
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card1 .card-left .arrow i {
+  color: #bdfd6b;
+}
+
+.card1 .card-left .arrow-bottom {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card1 .card-left h3 {
+  background-color: #bdfd6b;
+  font-size: 30px;
+  width: max-content;
+  padding: 0px 4px;
+}
+
+/* CArd 2 */
+
+.Cards .card2 {
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+.Cards .card2 .card-left {
+  width: 50%;
+  height: 100%;
+}
+.Cards .card2 .card-right {
+  width: 50%;
+  height: 100%;
+}
+.Cards .card2 .card-right img {
+  width: 80%;
+  background-color: white;
+}
+
+.Cards .card2 .card-left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card2 .card-left .arrow {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2 .card-left .arrow i {
+  color: #000;
+}
+
+.card2 .card-left .arrow-bottom {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.card2 .card-left h3 {
+  background-color: #fff;
+  color: black;
+  font-size: 30px;
+  width: max-content;
+  padding: 0px 4px;
+}
+
+.card-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
