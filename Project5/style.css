@@ -17,6 +17,26 @@ html,
 body {
   height: 100%;
 }
+body {
+  overflow-x: hidden;
+}
+.cursor {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5px;
+  text-align: center;
+  z-index: 9;
+  overflow: hidden;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
 header {
   height: 100%;
 }
@@ -99,6 +119,7 @@ main {
 main .partners {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 main .partners img {
@@ -129,6 +150,7 @@ main .partners img {
   grid-template-columns: 0.8fr 0.8fr;
   grid-auto-rows: 300px;
   gap: 20px;
+  padding-bottom: 60px;
 }
 
 .Cards .card1 {
